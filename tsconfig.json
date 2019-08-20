@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["es6", "es7", "dom"],
+    "removeComments": true,
+    "allowJs": false,
+    "emitDeclarationOnly": true,
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "declaration": true,
+    "noImplicitAny": true,
+    "strict": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": [
+    "./node_modules",
+    "./examples/**/*",
+    "./dist/**/*"
+  ]
+}

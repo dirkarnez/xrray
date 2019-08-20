@@ -1,0 +1,16 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="../dist/xrray.js"></script>
+  </head>
+  <body>
+    <script>
+      console.log("expect 2");
+      console.log([1, 2, 3, 1].singleOrThrow(v => v == 2));
+      console.log("expect an exception coming up");
+      console.log([1, 2, 3, 1].singleOrThrow(v => v == 1));
+    </script>
+  </body>
+</html>
